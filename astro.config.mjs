@@ -4,7 +4,6 @@ import { defineConfig } from "astro/config";
 
 export default defineConfig({
   site: "https://JLund1n.github.io",
-  base: '/JLund1n.github.io',
   integrations: [
     tailwind(),
     image({
